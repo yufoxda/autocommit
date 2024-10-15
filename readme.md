@@ -1,6 +1,6 @@
-= github rest api を用いてコミットする
-= 自動草生成コマンド
-
+# github rest api を用いてコミットする
+tokenはpersonal access tokens
+## 自動草生成コマンド
 ```
   curl -L \
   -H "Accept: application/vnd.github+json" \
@@ -20,7 +20,7 @@ curl -L \
 ```
 でコミット
 
-== python
+## python
 ```
 pip install -r requirements.txt
 ```
